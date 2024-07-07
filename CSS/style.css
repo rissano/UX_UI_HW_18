@@ -1,0 +1,175 @@
+body {
+    background-image: url("../Images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.logo img{
+    max-width: 50px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "arial", sans-seriff;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: #323232;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 50px;
+}
+
+
+.heroImg img {
+    max-width: 250px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.content {
+   flex: 1;
+   max-width: 500px;
+   text-align: left;
+   background-color: rgba(240, 240, 235, 0.8);
+   backdrop-filter: blur(100px);
+   border-radius: 10px;
+   padding-left: 30px;
+   font-family: "arial", sans-seriff;
+}
+
+p {
+    max-width: 80%;
+    margin: 5;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.button {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: light bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+
+
+.workTogether {
+   position: absolute;
+   bottom: 25px;
+   left: 0;
+   width: 100%;
+   background-color: rgba(240, 240, 235, 0.8);
+   backdrop-filter: blur(100px);
+}
+
+.workTogether h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "arial", sans-serif;
+}
+
+.letsWork {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: light bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 10px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.btn:hover {
+    background-color: #333333;
+}
+
+.button:hover {
+    background-color: #333333;
+}
