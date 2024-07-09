@@ -1,0 +1,95 @@
+/*nav bar*/
+header {
+    margin-top: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.logo img{
+    max-width: 50px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "arial", sans-seriff;
+}
+/*my skills*/
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.flexChild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+.flexChild h3 {
+    order: 3;
+    margin-top: auto;
+    padding-top: 10px;
+    
+} 
+.mySkills {
+    padding: 20px;
+}
+.flexChild p {
+    margin-top: 10px;
+    order: 2;
+}
+.mySkills h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*my work*/
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: start;
+}
+.workGrid div {
+    display: flex;
+    flex-direction: column;
+}
+.workGrid img {
+    width: auto;
+    height: 200px;
+}
+.myWork h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.workGrid h4 {
+    margin: 0 0 10px 0;
+}
+.workGrid p {
+    margin: 0 0 10px 0;
+}
+.workGrid button {
+
+}
