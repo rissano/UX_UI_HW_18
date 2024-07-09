@@ -52,6 +52,9 @@ a {
     order: 3;
     margin-top: auto;
     padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "arial", sans-seriff;
     
 } 
 .mySkills {
@@ -60,10 +63,17 @@ a {
 .flexChild p {
     margin-top: 10px;
     order: 2;
+    text-decoration: none;
+    color: black;
+    font-family: "arial", sans-seriff;
+
 }
 .mySkills h1 {
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "arial", sans-seriff;
 }
 /*my work*/
 .workGrid {
@@ -83,12 +93,21 @@ a {
 .myWork h1 {
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "arial", sans-seriff;
 }
 .workGrid h4 {
     margin: 0 0 10px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "arial", sans-seriff;
 }
 .workGrid p {
     margin: 0 0 10px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "arial", sans-seriff;
 }
 .workGrid button {
 
