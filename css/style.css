@@ -1,3 +1,9 @@
+
+html, body {
+    width: 100%;
+}
+
+
 body {
     background-image: url("../images/MacBook\ Pro\ 16_\ -\ 15.png");
     background-size: cover;
@@ -44,20 +50,20 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-family: "arial", sans-seriff;
 }
 /*my skills*/
 .mySkills {
-    margin-bottom: 100px;
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px); 
-    border: 1px solid rgba(255, 255, 255, 0.3); /
-    border-radius: 10px; 
-    padding: 20px;
-    margin: 100px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+background: rgba(255, 255, 255, 0.2); 
+backdrop-filter: blur(10px); 
+-webkit-backdrop-filter: blur(10px); 
+border: 1px solid rgba(255, 255, 255, 0.3); 
+border-radius: 10px;
+padding: 20px;
+margin: 100px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height:min-content;
 }
 
 .flexContainer {
@@ -81,7 +87,7 @@ a {
 }
 
 .flexChild img {
-    width: 100px; /* Adjust the size of the images as needed */
+    width: 100px; 
     height: auto;
 }
 
@@ -89,7 +95,7 @@ a {
     margin: 20px 0 10px 0;
     color: black;
     font-family: "Arial", sans-serif;
-    flex-shrink: 0; /* Prevent h3 from shrinking */
+    flex-shrink: 0; 
 }
 
 .flexChild p {
@@ -97,7 +103,7 @@ a {
     padding: 0 10px;
     color: black;
     font-family: "Arial", sans-serif;
-    flex-grow: 1; /* Allow p to grow and take available space */
+    flex-grow: 1; 
 }
 
 .mySkills h1 {
@@ -107,7 +113,7 @@ a {
     font-family: "Arial", sans-serif;
 }
 
-/* Ensures all flexChildren have equal height and align items properly */
+
 .flexChild {
     display: flex;
     flex-direction: column;
@@ -116,14 +122,15 @@ a {
 
 /*my work*/
 .myWork {
-    background: rgba(255, 255, 255, 0.2); /* White with 20% opacity */
-    backdrop-filter: blur(10px); /* Blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Slight white border */
-    border-radius: 10px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 10px; 
     padding: 20px;
     margin: 100px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    height:min-content;
 }
 
 .workGrid {
@@ -181,6 +188,7 @@ a {
 
 
 .workTogether {
+    margin: 0;
     margin-bottom: 0;
     margin-top: 40px;
     padding: 20px;
@@ -229,10 +237,10 @@ a {
     text-align: center;
     bottom: 0;
     width: 100%;
-     background-color: #333;
-     color: white;
-     text-align: right;
-     padding: 10px 0;
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 10px 0;
  }
  
  footer ul {
@@ -249,4 +257,8 @@ a {
  
  .button:hover {
      background-color: #333333;
+ }
+
+ .workGrid button:hover{
+    background-color: #333333;
  }
